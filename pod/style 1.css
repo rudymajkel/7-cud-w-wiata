@@ -1,0 +1,83 @@
+.content {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    line-height: 10vh;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: cadetblue;
+}
+.menu {
+    float: left;
+    width: 100%;
+    height: 150vh;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 80%;
+}
+.aside {
+    float: none;
+    width: 100%;
+    height: 150vh;
+    background-color: cornflowerblue;
+    background-image: url(zdjecia/glowny.png);
+}
+ul, ul li {
+    display: block;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 20px  whitesmoke;
+}
+.gl {
+    border-radius: 40px;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 97%;
+    width: 97%;
+    margin: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.txt {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    float: none;
+}
+.gallery {
+    margin: 50px;
+}
+.footer {
+    background-color: cadetblue;
+    width: 100%;
+    height: 8vh;
+    clear: both;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .menu {
+        width: 9%;
+    }
+    .aside {
+        float: left;
+        width: 91%;
+    }
+    .txt {
+        width: 500px;
+        float: left;
+    }
+    img {
+        width: 800px;
+    }
+}
