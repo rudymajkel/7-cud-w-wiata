@@ -48,6 +48,7 @@ table, td  {
 ul, ul li {
     display: block;
     list-style: none;
+    margin-left: -15px;
 }
 a {
     color: black;
@@ -101,8 +102,11 @@ a:hover {
     img {
         width: 500px;
     }
+    .gallery {
+        margin: 35%;
+    }
 }
-@media screen and (max-width: 1642px) {
+@media screen and (max-width: 1200px) {
     .menu {
         width: 100%;
         height: auto;
@@ -114,4 +118,20 @@ a:hover {
     img {
         width: 50vw;
     }
+}
+@media screen and (min-width: 1200px) {
+   img {
+    width: 400px;
+   }
+   .gallery {
+    margin: 40%;
+   }
+   .gallery img {
+    
+    max-height: 200px;
+    max-width: 300px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.3s;
+   }
 }
