@@ -75,9 +75,6 @@ a:hover {
     height: 800px;
     float: none;
 }
-.gallery {
-    margin: 20%;
-}
 .footer {
     background-color: cadetblue;
     width: 100%;
@@ -103,7 +100,15 @@ a:hover {
         width: 500px;
     }
     .gallery {
-        margin: 35%;
+        width: 100%;
+        height: auto;
+        margin: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a img {
+        max-width: 40px;
+        height: auto;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -118,20 +123,39 @@ a:hover {
     img {
         width: 50vw;
     }
+    .gl {
+        height: 100vh
+    }
+    .gallery {
+        width: 100%;
+        height: auto;
+        margin: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a img {
+        max-width: 200px;
+        height: auto;
+    }
+
 }
 @media screen and (min-width: 1200px) {
    img {
     width: 400px;
    }
    .gallery {
-    margin: 40%;
+   
+        width: 100%;
+        height: auto;
+        margin: 20%;
+        display: flex;
+        flex-wrap: wrap;
+
    }
-   .gallery img {
-    
-    max-height: 200px;
+   a img {
     max-width: 300px;
-    overflow: hidden;
-    transform: scale(1);
-    transition: transform 0.3s;
+    
    }
+    
+
 }
