@@ -44,6 +44,8 @@ table, td  {
     height: 150vh;
     background-color: cornflowerblue;
     background-image: url(zdjecia/glowny.png);
+	background-size: cover;
+	
 }
 ul, ul li {
     display: block;
