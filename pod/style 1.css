@@ -91,7 +91,7 @@ a:hover {
     .aside {
         float: left;
         width: 91%;
-	height: 100vh;
+	
     }
     .txt {
         width: 500px;
@@ -125,7 +125,7 @@ a:hover {
         width: 50vw;
     }
     .gl {
-        height: 100vh
+        
     }
     .gallery {
         width: 100%;
