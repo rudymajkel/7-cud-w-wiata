@@ -85,7 +85,9 @@ a:hover {
     text-align: center;
 }
 @media screen and (max-width: 600px) {
-	
+	.header {
+		background-color: blure;
+	}
 }
 @media screen and (min-width: 600px) {
     .menu {
