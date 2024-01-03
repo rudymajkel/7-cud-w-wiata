@@ -86,7 +86,7 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
 	.header {
-		background-color: blure;
+		background-color: blue;
 	}
 }
 @media screen and (min-width: 600px) {
